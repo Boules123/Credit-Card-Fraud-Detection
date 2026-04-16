@@ -52,42 +52,6 @@ A production-grade binary classification system that identifies fraudulent credi
 
 ## Architecture
 
-<!-- ### System Design
-
-```
-┌──────────────────────────────────────────────────────────────────┐
-│                     Credit Card Fraud Detection                  │
-├──────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│  ┌─────────┐    ┌──────────┐    ┌───────────┐    ┌───────────┐  │
-│  │Raw Data │───▶│Stratified│───▶│  SMOTE /  │───▶│ Standard  │  │
-│  │ (CSV)   │    │  Split   │    │ Resample  │    │  Scaler   │  │
-│  └─────────┘    └──────────┘    └───────────┘    └─────┬─────┘  │
-│                                                        │        │
-│                    ┌───────────────────────────────────┐│        │
-│                    │         Model Selection           ││        │
-│                    ├───────────────────────────────────┤▼        │
-│                    │  Classical ML    │  Deep Learning │         │
-│                    │  ─────────────   │  ─────────────  │        │
-│                    │  • Log. Reg.     │  • MLP (PyTorch)│        │
-│                    │  • Decision Tree │    - LayerNorm  │        │
-│                    │  • Random Forest │    - Dropout    │        │
-│                    │  • Grad. Boost.  │    - Focal Loss │        │
-│                    │  • AdaBoost      │    - pos_weight │        │
-│                    │  • SVM           │                 │        │
-│                    │  • KNN           │                 │        │
-│                    │  • Voting Ens.   │                 │        │
-│                    └────────┬────────┴────────┬────────┘        │
-│                             │                 │                  │
-│                    ┌────────▼─────────────────▼────────┐        │
-│                    │         Evaluation Suite          │         │
-│                    │  F1 │ Precision │ Recall │ AUC   │         │
-│                    │  ROC Curve │ Confusion Matrix     │         │
-│                    └──────────────────────────────────┘          │
-│                                                                  │
-└──────────────────────────────────────────────────────────────────┘
-``` -->
-
 ### ML Pipeline (Classical Models)
 
 ```
