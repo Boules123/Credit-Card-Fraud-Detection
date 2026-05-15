@@ -403,20 +403,6 @@ The dataset is severely imbalanced (492 fraud out of 284,807 transactions). This
 
 ---
 
-## Roadmap
-
-- [ ] Add threshold optimization (precision-recall curve analysis) for production deployment
-- [ ] Implement XGBoost and LightGBM baselines for gradient boosting comparison
-- [ ] Add feature importance visualization (SHAP values, permutation importance)
-- [ ] Integrate experiment tracking (MLflow / Weights & Biases)
-- [ ] Add unit and integration tests (`pytest`)
-- [ ] Implement imblearn `Pipeline` for full end-to-end resampling + model serialization
-- [ ] Add Docker support for reproducible environments
-- [ ] Deploy as REST API with FastAPI
-- [ ] Add real-time streaming fraud detection demo
-
----
-
 ## Contributing
 
 Contributions are welcome! Here's how to get started:
