@@ -403,20 +403,6 @@ The dataset is severely imbalanced (492 fraud out of 284,807 transactions). This
 
 ---
 
-## Contributing
-
-Contributions are welcome! Here's how to get started:
-
-1. **Fork** this repository
-2. **Create** a feature branch: `git checkout -b feature/my-feature`
-3. **Commit** your changes: `git commit -m "feat: add my feature"`
-4. **Push** to your branch: `git push origin feature/my-feature`
-5. Open a **Pull Request**
-
-Please ensure your code follows PEP 8 conventions and includes appropriate docstrings.
-
----
-
 ## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
